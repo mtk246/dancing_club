@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Leckerli+One);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+:root {
+    --color-one: #fff;
+    --color-two: #333;
+    --color-three: red;
+    --gradient-one: rgba(0,0,0,.5);
+    --gradient-two: rgba(0,0,0,.3);
+    --heading-one: 2.5rem;
+    --heading-two: 2rem;
+    --heading-three: 1.5rem;
+    --heading-four: 1.25rem;
+    --heading-five: 1rem;
+    --heading-six: .75rem;
+    --margin-auto: auto;
+    --margin-0: 0;
+    --margin-1: 1rem;
+    --margin-2: 2rem;
+    --margin-3: 3rem;
+    --margin-4: 4rem;
+    --margin-5: 5rem;
+    --margin-6: 6rem;
+    --padding-0: 0;
+    --padding-1: 1rem;
+    --padding-2: 2rem;
+    --padding-3: 3rem;
+    --padding-4: 4rem;
+    --padding-5: 5rem;
+    --padding-6: 6rem;
+}
