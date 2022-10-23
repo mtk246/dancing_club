@@ -2,8 +2,9 @@ html, body {
   padding: 0;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  color: var(--color-one);
+  color: var(--color-two);
   transition: all .5s ease-in-out;
+  font-weight: normal;
 }
 
 /* navbar start */
@@ -14,7 +15,7 @@ html, body {
     left: 0;
     width: 100%;
     height: 100px;
-    background: var(--color-two);
+    background: var(--color-one);
     z-index: 3;
     margin: auto 0;
     display: flex;
@@ -38,6 +39,12 @@ html, body {
 
 .navbar .nav-links > ul > li {
     margin-left: 50px;
+}
+
+.logo-text {
+    font-size: var(--heading-three);
+    font-family: 'Leckerli One', cursive;
+    color: var(--color-two);
 }
 
 /* navbar end */
@@ -84,19 +91,44 @@ html, body {
     display: table-cell;
     vertical-align: middle;
     z-index: 2;
+    color: var(--color-one);
 }
 
 .content { 
     height: 100%;
-    background: var(--color-two);
+    background: var(--color-four);
     margin-top: 100vh;
     z-index: 1;
 }
 
+.subscribe-test {
+    font-size: var(--font-size-small);
+}
+
+.btn-full {
+    width: 100%;
+}
+
+.footer {
+    background: var(--color-one);
+    color: var(--color-two);
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.fork {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fork a img {
+    margin: 0 0.5rem;
+}
 
 /* media queries start */
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 340px) {
     /* For tablets: */
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}

@@ -5,9 +5,10 @@
     --color-one: #fff;
     --color-two: #333;
     --color-three: red;
+    --color-four: #ededed;
     --gradient-one: rgba(0,0,0,.5);
     --gradient-two: rgba(0,0,0,.3);
-    --heading-one: 2.5rem;
+    --heading-one: 4rem;
     --heading-two: 2rem;
     --heading-three: 1.5rem;
     --heading-four: 1.25rem;
@@ -28,4 +29,13 @@
     --padding-4: 4rem;
     --padding-5: 5rem;
     --padding-6: 6rem;
+    --font-size-small: 1rem;
+    --font-size-medium: 1.5rem;
+    --font-size-large: 2rem;
+    --font-size-1: 1rem;
+    --font-size-2: 1.25rem;
+    --font-size-3: 1.75rem;
+    --font-size-4: 2.25rem;
+    --font-size-5: 2.5rem;
+    --font-size-6: 2.75rem;
 }
